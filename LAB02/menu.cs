@@ -26,5 +26,17 @@ namespace LAB02
             bai3 FromN = new bai3();
             FromN.ShowDialog();
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            Bai4 FromN = new Bai4();
+            FromN.ShowDialog();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            Bai5 FromN = new Bai5();
+            FromN.ShowDialog();
+        }
     }
 }

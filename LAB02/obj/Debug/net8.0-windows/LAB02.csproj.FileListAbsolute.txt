@@ -18,3 +18,26 @@ C:\Users\ADMIN\source\repos\LAB02\LAB02\obj\Debug\net8.0-windows\LAB02.Bai1.reso
 C:\Users\ADMIN\source\repos\LAB02\LAB02\obj\Debug\net8.0-windows\LAB02.menu.resources
 C:\Users\ADMIN\source\repos\LAB02\LAB02\obj\Debug\net8.0-windows\LAB02.Bai2.resources
 C:\Users\ADMIN\source\repos\LAB02\LAB02\obj\Debug\net8.0-windows\LAB02.bai3.resources
+D:\Hoc_tap\Lap Trinh Mang CB\Lab2LTMCB\LAB02\bin\Debug\net8.0-windows\LAB02.exe
+D:\Hoc_tap\Lap Trinh Mang CB\Lab2LTMCB\LAB02\bin\Debug\net8.0-windows\LAB02.deps.json
+D:\Hoc_tap\Lap Trinh Mang CB\Lab2LTMCB\LAB02\bin\Debug\net8.0-windows\LAB02.runtimeconfig.json
+D:\Hoc_tap\Lap Trinh Mang CB\Lab2LTMCB\LAB02\bin\Debug\net8.0-windows\LAB02.dll
+D:\Hoc_tap\Lap Trinh Mang CB\Lab2LTMCB\LAB02\bin\Debug\net8.0-windows\LAB02.pdb
+D:\Hoc_tap\Lap Trinh Mang CB\Lab2LTMCB\LAB02\obj\Debug\net8.0-windows\LAB02.Bai1.resources
+D:\Hoc_tap\Lap Trinh Mang CB\Lab2LTMCB\LAB02\obj\Debug\net8.0-windows\LAB02.Bai2.resources
+D:\Hoc_tap\Lap Trinh Mang CB\Lab2LTMCB\LAB02\obj\Debug\net8.0-windows\LAB02.bai3.resources
+D:\Hoc_tap\Lap Trinh Mang CB\Lab2LTMCB\LAB02\obj\Debug\net8.0-windows\LAB02.Bai4.resources
+D:\Hoc_tap\Lap Trinh Mang CB\Lab2LTMCB\LAB02\obj\Debug\net8.0-windows\LAB02.menu.resources
+D:\Hoc_tap\Lap Trinh Mang CB\Lab2LTMCB\LAB02\obj\Debug\net8.0-windows\LAB02.Properties.Resources.resources
+D:\Hoc_tap\Lap Trinh Mang CB\Lab2LTMCB\LAB02\obj\Debug\net8.0-windows\LAB02.csproj.GenerateResource.cache
+D:\Hoc_tap\Lap Trinh Mang CB\Lab2LTMCB\LAB02\obj\Debug\net8.0-windows\LAB02.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hoc_tap\Lap Trinh Mang CB\Lab2LTMCB\LAB02\obj\Debug\net8.0-windows\LAB02.AssemblyInfoInputs.cache
+D:\Hoc_tap\Lap Trinh Mang CB\Lab2LTMCB\LAB02\obj\Debug\net8.0-windows\LAB02.AssemblyInfo.cs
+D:\Hoc_tap\Lap Trinh Mang CB\Lab2LTMCB\LAB02\obj\Debug\net8.0-windows\LAB02.csproj.CoreCompileInputs.cache
+D:\Hoc_tap\Lap Trinh Mang CB\Lab2LTMCB\LAB02\obj\Debug\net8.0-windows\LAB02.sourcelink.json
+D:\Hoc_tap\Lap Trinh Mang CB\Lab2LTMCB\LAB02\obj\Debug\net8.0-windows\LAB02.dll
+D:\Hoc_tap\Lap Trinh Mang CB\Lab2LTMCB\LAB02\obj\Debug\net8.0-windows\refint\LAB02.dll
+D:\Hoc_tap\Lap Trinh Mang CB\Lab2LTMCB\LAB02\obj\Debug\net8.0-windows\LAB02.pdb
+D:\Hoc_tap\Lap Trinh Mang CB\Lab2LTMCB\LAB02\obj\Debug\net8.0-windows\LAB02.genruntimeconfig.cache
+D:\Hoc_tap\Lap Trinh Mang CB\Lab2LTMCB\LAB02\obj\Debug\net8.0-windows\ref\LAB02.dll
+D:\Hoc_tap\Lap Trinh Mang CB\Lab2LTMCB\LAB02\obj\Debug\net8.0-windows\LAB02.Bai5.resources
