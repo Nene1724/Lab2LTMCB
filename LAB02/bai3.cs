@@ -129,10 +129,5 @@ namespace LAB02
 
             return finalResult;
         }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
