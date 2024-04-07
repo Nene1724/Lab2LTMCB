@@ -3,6 +3,7 @@ using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
+using System.Text.RegularExpressions;
 
 namespace LAB02
 {
@@ -12,7 +13,6 @@ namespace LAB02
         {
             InitializeComponent();
         }
-
         private void label1_Click(object sender, EventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
@@ -29,27 +29,43 @@ namespace LAB02
                     {
                         foreach (string line in lines)
                         {
-                            string[] parts = line.Split(' ');
+                            string[] parts = Regex.Split(line, @"(?<=[\d])(?=[+\-*/])|(?<=[\+\-*/])(?=[\d])");
 
                             List<decimal> operands = new List<decimal>();
                             List<char> operators = new List<char>();
 
-                            foreach (string part in parts)
+                            bool isValid = true;
+                            for (int i = 0; i < parts.Length; i++)
                             {
-                                if (decimal.TryParse(part, out decimal operand))
+                                if (i % 2 == 0)
                                 {
-                                    operands.Add(operand);
+                                    // Số hạng
+                                    try
+                                    {
+                                        operands.Add(decimal.Parse(parts[i]));
+                                    }
+                                    catch (FormatException)
+                                    {
+                                        isValid = false;
+                                        break;
+                                    }
                                 }
-                                else if (IsOperator(part))
+                                else
                                 {
-                                    operators.Add(part[0]);
+                                    // Toán tử
+                                    if (operators.Count > 0 && operators[^1] == parts[i][0])
+                                    {
+                                        isValid = false;
+                                        break;
+                                    }
+
+                                    operators.Add(parts[i][0]);
                                 }
                             }
 
-                            if (operands.Count == operators.Count + 1)
+                            if (isValid && operators.Count == operands.Count - 1)
                             {
                                 decimal result = EvaluateExpression(operands, operators);
-
                                 writer.WriteLine($"{line} = {result}");
                             }
                             else
