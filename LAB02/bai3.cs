@@ -29,12 +29,10 @@ namespace LAB02
                     {
                         foreach (string line in lines)
                         {
-                            string[] parts = line.Split(' ');
-
                             List<decimal> operands = new List<decimal>();
                             List<char> operators = new List<char>();
 
-                            foreach (string part in parts)
+                            foreach (char part in line)
                             {
                                 if (decimal.TryParse(part, out decimal operand))
                                 {
